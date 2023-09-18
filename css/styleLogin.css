@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Courgette&family=Lato:wght@300&family=Open+Sans:wght@400;600;700&family=Oswald&family=Poppins:wght@700&family=Raleway:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+
+*{  margin: 0 auto;
+    padding: 0 auto;
+    font-family:'Oswald', sans-serif;
+    background-image: linear-gradient(to bottom,#550059b8 ,#96f0db) ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    color: white;}
+    
+.container{ background-color:transparent;
+        
+            opacity:.6;
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+            height: 550px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            
+        }
+
+#login{ display: flex;
+    flex-direction: column;
+    justify-content: center;    }
+.memberlogin{
+    /* height:100px; */
+    font-size: 40px;
+    width: 100%;
+    /* margin: 0 auto; */
+    margin-bottom: 100px;
+  
+}
+.img{margin-right: 10px;
+margin-bottom: -10px;} 
+.user_pass{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.user{
+    margin-bottom: 20px;
+}
+.input{
+    padding-bottom: 10px;
+    flex-grow:  1;
+    background-color: transparent;
+    width:350px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 16px;
+    }
+#remember{
+    
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-around; 
+        align-items: center; 
+        width: 400px;
+        height: 100px;
+    
+}
+.rememberb{width: 100px;
+            background-color: transparent;
+            border: none;}
+
+.forgot{width: 80px;
+color: white;
+text-decoration: none;
+}
+.forgot:hover{
+    color: black;
+}
+
+.login{ width: 300px;
+        border: 2px solid white;
+        border-radius: 30px;
+        padding: 10px;
+        margin-top:50px ;
+        font-size: 20px;
+    }
+.input:focus {outline: none;}
+div > p > a{
+    text-decoration: none;
+    color: white;
+}
+div > p > a:hover{
+    color: black;
+}
+#checkbox{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.footerp{
+    margin-left: 100px;
+    opacity:.6;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+      background-size: auto; 
+    }
+  
+    .container {
+      height: auto;
+    }
+  
+    .memberlogin {
+      font-size: 30px; 
+      margin-bottom: 50px; 
+    }
+  
+    .user_pass {
+      flex-direction: column; 
+    }
+    hr{
+        display: none;
+    }
+    .input {
+      width: 100%; 
+    }
+  
+    .login {
+      width: 80%; 
+    }
+  }

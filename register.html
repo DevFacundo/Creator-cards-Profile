@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleregister.css">
+    <title>Register</title>
+</head>
+<body>
+    <div id="registro" class="container  ">
+        <h2 class="titulo">Register Now</h2>
+        <form class="form" id="registro-form" >
+           <div class="item " >
+                <label class="label" for="">Name</label>
+                <input class="input" type="text" id="nombre" name="nombre"    required>
+                <hr>
+           </div>
+           <div class="item">
+                <label class="label" for="">Surname</label>
+                <input class="input" type="text" id="apellido" name="apellido"  required>
+                <hr>
+           </div>
+           <div class="item">
+                <label class="label" for="">Email</label>
+                <input  class="input" type="text" id="email" name="correo"   required>
+                <hr>
+           </div>
+           <div class="item">
+                <label class="label" for="">Date of Birth</label>
+                <input  class="input" type="date" id="date" name="date"  required>
+                <hr>
+            </div>
+            <div class="item">
+                <label class="label" for="">Adress</label>
+                <input  class="input" type="text" id="direccion" name="direccion"  required>
+                <hr>
+            </div>
+            <div class="item">
+                <label class="label" for="">Movil</label>
+                <input  class="input" type="number" id="movil" name="movil"   required>
+                <hr>
+            </div>
+           <div class="item ">
+                <label  class="label" for="">Password</label>
+                <input class="input" type="password" id="contrasena" name="pass"  minlength="6" maxlength="10" required>
+                <hr>
+            </div>
+            
+            <button class="register" type="submit">Register</button>
+        </form>
+    </div>
+    <footer>
+        <p class="footerp " > © 2023 FacundoDevDesign |  Todos los derechos reservados | facuaguilera32@gmail.com</p>
+    </footer>
+   <script src="js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Courgette&family=Lato:wght@300&family=Open+Sans:wght@400;600;700&family=Oswald&family=Poppins:wght@700&family=Raleway:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+*{  margin: 0 ;
+    padding: 0;
+    font-family:'Oswald', sans-serif;
+    background-image: linear-gradient(to bottom,#550059b8 ,#96f0db) ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    color: white;}
+
+#perfil{
+    background-image: linear-gradient(to bottom,#550059b8 ,#96f0db) ;
+    /* background-color: transparent; */
+    /* opacity:.5; */
+    
+    width: 100%;
+    margin: 0 ;
+    height: 550px;
+  }
+
+ .title-target{
+    background-color: transparent;
+    margin-left: 120px;
+ } 
+ .card {
+        border: 2px solid #000;
+        border-radius: 10px;
+        box-shadow: 10px 5px rgba(0, 0, 0, 0.411);
+        width: 400px;
+        padding: 20px;
+        margin: 0 ;
+        background-color:transparent;
+    }
+    
+.photo img {
+        max-width: 120px;
+        height: 120px;
+        display: block;
+        margin: 0 ;
+        border: none;
+}
+.photo{display: flex;
+        justify-content: space-between ;
+        }
+
+.codigo{
+    border: none;
+}
+    
+.info {
+        border-top: 1px solid black;
+        text-align: left;
+        margin-top: 20px;
+    }
+    
+.info h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    
+.info p {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+.footerp{
+        margin-left: 10px;
+        opacity:.8;
+    }
+
+
+
+@media (max-width: 768px) {
+    .title-target {
+      margin-left: 0; 
+    }
+  
+    .card {
+      width: 100%; 
+      margin: 10px auto; 
+    }
+  
+    .photo img {
+      max-width: 80px; 
+      height: 80px; 
+    }
+  
+    .info h3 {
+      font-size: 16px; 
+    }
+  
+    .info p {
+      font-size: 12px; 
+    }
+  }
