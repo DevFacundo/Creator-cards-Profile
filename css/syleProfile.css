@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Courgette&family=Lato:wght@300&family=Open+Sans:wght@400;600;700&family=Oswald&family=Poppins:wght@700&family=Raleway:ital,wght@0,300;0,600;1,300;1,600&display=swap');
 
-*{  margin: 0 ;
-    padding: 0;
-    font-family:'Oswald', sans-serif;
-    background-image: linear-gradient(to bottom,#550059b8 ,#96f0db) ;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-    color: white;}
-
+*{  margin: 0 auto;
+  padding: 0 auto;
+  color: white;
+}
+  body{
+  font-family:'Oswald', sans-serif;
+  background-image: linear-gradient(to bottom,#520156f5 ,#96f0db) ;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  }
+  
 #perfil{
     background-image: linear-gradient(to bottom,#550059b8 ,#96f0db) ;
     /* background-color: transparent; */
@@ -25,9 +28,10 @@
     margin-left: 120px;
  } 
  .card {
-        border: 2px solid #000;
+  background-image: linear-gradient(to bottom,#550059b8 ,#96f0db) ;
+        border: 2px solid #330a5a;
         border-radius: 10px;
-        box-shadow: 10px 5px rgba(0, 0, 0, 0.411);
+        box-shadow: 5px 5px rgba(94, 14, 132, 0.269);
         width: 400px;
         padding: 20px;
         margin: 0 ;
@@ -65,19 +69,20 @@
         margin: 5px 0;
     }
 .footerp{
+  background-color: transparent;
         margin-left: 10px;
-        opacity:.8;
+         opacity:.8; 
     }
 
 
 
 @media (max-width: 768px) {
     .title-target {
-      margin-left: 0; 
+      margin: 0 auto; 
     }
   
     .card {
-      width: 100%; 
+      width: 80%; 
       margin: 10px auto; 
     }
   

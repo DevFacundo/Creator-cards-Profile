@@ -3,13 +3,17 @@
 
 *{  margin: 0 auto;
     padding: 0 auto;
+color: white;
+}
+    body{
     font-family:'Oswald', sans-serif;
-    background-image: linear-gradient(to bottom,#550059b8 ,#96f0db) ;
+    background-image: linear-gradient(to bottom,#520156f5 ,#96f0db) ;
     background-repeat: no-repeat;
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
-    color: white;}
+    }
+    
     
 .container{ background-color:transparent;
         
@@ -79,12 +83,14 @@ text-decoration: none;
     color: black;
 }
 
-.login{ width: 300px;
+.login{ background-color: transparent;
+         width: 300px;
         border: 2px solid white;
         border-radius: 30px;
         padding: 10px;
         margin-top:50px ;
         font-size: 20px;
+        cursor: pointer;
     }
 .input:focus {outline: none;}
 div > p > a{
@@ -110,7 +116,7 @@ div > p > a:hover{
     body {
       background-size: auto; 
     }
-  
+    
     .container {
       height: auto;
     }
@@ -122,6 +128,11 @@ div > p > a:hover{
   
     .user_pass {
       flex-direction: column; 
+    }
+    .user{
+        display: flex;}
+    .pass{
+        display: flex;
     }
     hr{
         display: none;
