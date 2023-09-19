@@ -26,6 +26,6 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('firstTimeLogin', 'true');
         console.log("Formulario de inicio de sesión enviado");
         // Redirigir a la página de perfil
-        window.location.href = 'inicio.html';
+        window.location.href = 'index.html';
     });
 });
